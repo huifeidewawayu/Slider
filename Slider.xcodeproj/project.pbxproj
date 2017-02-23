@@ -436,7 +436,7 @@
 				DEVELOPMENT_TEAM = XSL78285HV;
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wurui.secoo.Slider;
+				PRODUCT_BUNDLE_IDENTIFIER = wurui.Slider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -448,7 +448,7 @@
 				DEVELOPMENT_TEAM = XSL78285HV;
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wurui.secoo.Slider;
+				PRODUCT_BUNDLE_IDENTIFIER = wurui.Slider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
