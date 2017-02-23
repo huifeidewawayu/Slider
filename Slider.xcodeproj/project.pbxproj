@@ -15,6 +15,7 @@
 		5A459B391E1C941800BB58CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A459B371E1C941800BB58CE /* LaunchScreen.storyboard */; };
 		5A459B441E1C941800BB58CE /* SliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A459B431E1C941800BB58CE /* SliderTests.m */; };
 		5A459B4F1E1C941800BB58CE /* SliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A459B4E1E1C941800BB58CE /* SliderUITests.m */; };
+		5AEA1CA71E1F982B0017DD3D /* MDFScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA1CA41E1F982B0017DD3D /* MDFScrollBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A459B4A1E1C941800BB58CE /* SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A459B4E1E1C941800BB58CE /* SliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderUITests.m; sourceTree = "<group>"; };
 		5A459B501E1C941800BB58CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEA1CA31E1F982B0017DD3D /* MDFScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDFScrollBar.h; sourceTree = "<group>"; };
+		5AEA1CA41E1F982B0017DD3D /* MDFScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDFScrollBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5A459B2D1E1C941800BB58CE /* AppDelegate.m */,
 				5A459B2F1E1C941800BB58CE /* ViewController.h */,
 				5A459B301E1C941800BB58CE /* ViewController.m */,
+				5AEA1CA31E1F982B0017DD3D /* MDFScrollBar.h */,
+				5AEA1CA41E1F982B0017DD3D /* MDFScrollBar.m */,
 				5A459B321E1C941800BB58CE /* Main.storyboard */,
 				5A459B351E1C941800BB58CE /* Assets.xcassets */,
 				5A459B371E1C941800BB58CE /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEA1CA71E1F982B0017DD3D /* MDFScrollBar.m in Sources */,
 				5A459B311E1C941800BB58CE /* ViewController.m in Sources */,
 				5A459B2E1E1C941800BB58CE /* AppDelegate.m in Sources */,
 				5A459B2B1E1C941800BB58CE /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				5A459B551E1C941900BB58CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A459B561E1C941900BB58CE /* Build configuration list for PBXNativeTarget "SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				5A459B581E1C941900BB58CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A459B591E1C941900BB58CE /* Build configuration list for PBXNativeTarget "SliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				5A459B5B1E1C941900BB58CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
