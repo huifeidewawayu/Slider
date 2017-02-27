@@ -6,6 +6,7 @@
 
 <br>
 例如:
+
     static CGFloat const scrollBarSpacing = 5.0f;
 
     UIScrollView *crossView = [[UIScrollView alloc] init];
